@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Higher Ed News Digest</title>
+    <link>https://chrismilletpsu.github.io/higher-ed-brief-feed/</link>
+    <atom:link href="https://chrismilletpsu.github.io/higher-ed-brief-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
+    <description>A daily spoken brief on higher education policy, online learning, edtech, enrolment and accreditation. Read by Serena.</description>
+    <lastBuildDate>Thu, 20 Aug 2026 07:42:44 -0400</lastBuildDate>
+    <itunes:author>Higher Ed Brief</itunes:author>
+    <itunes:summary>A daily spoken brief on higher education policy, online learning, edtech, enrolment and accreditation. Read by Serena.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <itunes:image href="https://chrismilletpsu.github.io/higher-ed-brief-feed/artwork.png"/>
+    <image>
+      <url>https://chrismilletpsu.github.io/higher-ed-brief-feed/artwork.png</url>
+      <title>Higher Ed News Digest</title>
+      <link>https://chrismilletpsu.github.io/higher-ed-brief-feed/</link>
+    </image>
+    <itunes:owner>
+      <itunes:name>Chris</itunes:name>
+      <itunes:email>cxm470@psu.edu</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>Higher Ed News Digest — Thursday, 20 August 2026</title>
+      <description>Spoken edition of the Higher Ed News Digest for Thursday, 20 August 2026. Full sources are in the email edition.</description>
+      <pubDate>Thu, 20 Aug 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">higheredbrief-2026-08-20</guid>
+      <enclosure url="https://chrismilletpsu.github.io/higher-ed-brief-feed/audio/digest_2026-08-20.m4a" length="6751892" type="audio/mp4"/>
+      <itunes:duration>0:13:34</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Higher Ed News Digest — Monday, 17 August 2026</title>
+      <description>Spoken edition of the Higher Ed News Digest for Monday, 17 August 2026. Full sources are in the email edition.</description>
+      <pubDate>Mon, 17 Aug 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">higheredbrief-2026-08-17</guid>
+      <enclosure url="https://chrismilletpsu.github.io/higher-ed-brief-feed/audio/digest_2026-08-17.m4a" length="6972312" type="audio/mp4"/>
+      <itunes:duration>0:13:59</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Higher Ed News Digest — Thursday, 13 August 2026</title>
+      <description>Spoken edition of the Higher Ed News Digest for Thursday, 13 August 2026. Full sources are in the email edition.</description>
+      <pubDate>Thu, 13 Aug 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">higheredbrief-2026-08-13</guid>
+      <enclosure url="https://chrismilletpsu.github.io/higher-ed-brief-feed/audio/digest_2026-08-13.m4a" length="6592135" type="audio/mp4"/>
+      <itunes:duration>0:13:15</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Higher Ed News Digest — Monday, 10 August 2026</title>
+      <description><![CDATA[<p>Coverage window: Friday 7 August – Monday 10 August 2026. Sixteen stories, read by two voices.</p>
+
+<p><strong>In this episode</strong></p>
+<ol>
+<li>Heritage Foundation publishes model state legislation to codify the federal compact</li>
+<li>Who drafted "Compact 2.0" — and what presidents are being told to do about it</li>
+<li>Professors are retiring early, and AI is the deciding factor</li>
+<li>Four clocks on campus AI, and Turnitin's move to keystroke monitoring</li>
+<li>Fisk's $400 million data center becomes a flashpoint</li>
+<li>Civil rights enforcement widens, with Duke Law a first</li>
+<li>Federal policy roundup: an OPT fee, a Senate package, a grant-rule block, and a scholarship portal</li>
+<li>Workforce Pell: the policy is live, the states are not ready</li>
+<li>Texas: the performance funding model worked too well to afford</li>
+<li>State aid shortfalls are common, and the design invites them</li>
+<li>Howard offers buyouts to 600 employees</li>
+<li>Illinois Tech and Mankato cut deep, days before term</li>
+<li>GAO: 94% of Division I athletics programs lost money</li>
+<li>Price competition at both ends: Boston University and Alaska</li>
+<li>Niche: 61% of colleges met fall goals, but only half of small ones</li>
+<li>Digital learning: cheaper materials, LMS fragility, and new autumn programmes</li>
+</ol>
+
+<p><strong>One thing to watch:</strong> tying money to outcomes is easy to legislate and expensive to honour — the compact fight moves to fifty state capitals just as Texas discovers it cannot afford the performance model everyone praised.</p>
+
+<p><strong>Sources</strong></p>
+
+<p><em>The compact and federal policy</em></p>
+<ul>
+<li><a href="https://www.heritage.org/model-legislation/codify-the-federal-higher-education-compact">Codify the Federal Higher Education Compact</a> — Heritage Foundation</li>
+<li><a href="https://www.highereddive.com/news/the-heritage-foundation-releases-sweeping-model-bill-to-overhaul-higher-ed/827280/">The Heritage Foundation releases sweeping model bill to overhaul higher ed</a> — Higher Ed Dive</li>
+<li><a href="https://www.chronicle.com/article/college-leaders-play-down-their-involvement-in-compact-2-0">College Leaders Play Down Their Involvement in 'Compact 2.0'</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.chronicle.com/liveblog/heres-the-latest-news-on-trump-policies-in-higher-ed">Here's the Latest News on Trump and Higher Ed</a> — The Chronicle of Higher Education (WashU faculty-led process, Yale billboards, CareerOneStop, Senate grant-rule block, Duke Law findings)</li>
+<li><a href="https://www.insidehighered.com/news/government/2026/08/10/how-should-leaders-respond-mcmahons-letter">How Should Leaders Respond to McMahon's Letter?</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/opinion/views/2026/08/10/linda-mcmahons-trojan-horse-opinion">Linda McMahon's Trojan Horse (opinion)</a> — Inside Higher Ed</li>
+<li><a href="https://www.highereddive.com/news/interagency-agreements-committee-oks-bill-to-block-4-education-department/826676/">Committee OKs bill to block Education Department transfers</a> — Higher Ed Dive</li>
+<li><a href="https://www.highereddive.com/news/week-in-review-a-100k-fee-for-opt/826752/">Week in review: A $100K fee for OPT?</a> — Higher Ed Dive</li>
+<li><a href="https://www.nasfaa.org/ge_2026">2026 Gainful Employment</a> — NASFAA</li>
+<li><a href="https://www.nixonpeabody.com/insights/alerts/2026/07/02/department-of-education-finalizes-obbb-higher-ed-accountability-rule">Department of Education finalizes OBBB higher ed accountability rule</a> — Nixon Peabody</li>
+</ul>
+
+<p><em>State policy and student aid</em></p>
+<ul>
+<li><a href="https://www.insidehighered.com/news/government/state-policy/2026/08/10/texas-could-shortchange-new-funding-model-champions">Texas Could Shortchange New Funding Model Champions</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/news/students/financial-aid/2026/08/10/state-aid-shortfalls-are-common-can-they-be-addressed">State Aid Shortfalls Are Common. Can They Be Addressed?</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/news/government/state-policy/2026/08/07/states-wrestle-data-and-program-tweaks-access-workforce">States Wrestle With Data and Program Tweaks to Access Workforce Pell</a> — Inside Higher Ed</li>
+</ul>
+
+<p><em>AI and academic integrity</em></p>
+<ul>
+<li><a href="https://www.chronicle.com/article/these-professors-are-retiring-early-ai-was-the-last-straw">These Professors Are Retiring Early. AI Was the Last Straw.</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.chronicle.com/article/my-students-werent-human-they-were-ghosts">My Students Weren't Human. They Were Ghosts.</a> — The Chronicle Review</li>
+<li><a href="https://www.chronicle.com/article/ai-is-a-wicked-problem-thats-the-universitys-specialty">AI Is a Wicked Problem. That's the University's Specialty.</a> — The Chronicle Review</li>
+<li><a href="https://www.chronicle.com/article/to-catch-ai-cheating-turnitin-wants-to-monitor-students-keystrokes">To Catch AI Cheating, Turnitin Wants to Monitor Students' Keystrokes</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/07/will-data-center-bring-risk-or-reward-fisk">Will a Data Center Bring Risk or Reward to Fisk?</a> — Inside Higher Ed</li>
+</ul>
+
+<p><em>Legal and civil rights</em></p>
+<ul>
+<li><a href="https://www.justice.gov/opa/pr/justice-department-finds-duke-law-school-discriminates-based-race-admissions">Justice Department finds Duke Law School discriminates based on race in admissions</a> — U.S. Department of Justice</li>
+<li><a href="https://www.ed.gov/about/news/press-release/us-department-of-education-investigates-alleged-antisemitic-harassment-two-california-universities">ED investigates alleged antisemitic harassment at two California universities</a> — U.S. Department of Education</li>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/10/haverford-settles-antisemitism-lawsuit">Haverford Settles Antisemitism Lawsuit</a> — Inside Higher Ed</li>
+<li><a href="https://www.theguardian.com/us-news/ng-interactive/2026/aug/06/professor-israel-gaza-university-of-minnesota">The professor, Israel, Gaza and the University of Minnesota</a> — The Guardian</li>
+</ul>
+
+<p><em>Institutional finance</em></p>
+<ul>
+<li><a href="https://www.chronicle.com/liveblog/heres-the-latest-news-on-campus-finance">Here's the Latest News on Campus Finance</a> — The Chronicle of Higher Education (GAO athletics figures, Illinois Tech, Mankato, Alaska)</li>
+<li><a href="https://www.chronicle.com/article/howard-u-offers-buyouts-to-600-employees">Howard U. Offers Buyouts to 600 Employees</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.highereddive.com/news/illinois-institute-of-technology-lays-off-160-faculty-and-staff-members/826895/">Illinois Institute of Technology lays off 160 faculty and staff members</a> — Higher Ed Dive</li>
+<li><a href="https://www.highereddive.com/news/minnesota-state-mankato-to-undergo-layoffs-hike-tuition-amid-22m-shortfal/827286/">Minnesota State Mankato to undergo layoffs, hike tuition amid $22M shortfall</a> — Higher Ed Dive</li>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/10/bu-offers-free-tuition-families-earning-200k">BU Offers Free Tuition to Families Earning Up to $200K</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/06/u-alaska-plans-end-out-state-tuition-rates">U. of Alaska Plans to End Out-of-State Tuition Rates</a> — Inside Higher Ed</li>
+</ul>
+
+<p><em>Enrolment and admissions</em></p>
+<ul>
+<li><a href="https://www.insidehighered.com/news/students/financial-aid/2026/08/05/61-percent-colleges-have-met-their-enrollment-goals-fall">61 Percent of Colleges Have Met Their Enrollment Goals for Fall 2026</a> — Inside Higher Ed (Niche survey)</li>
+<li><a href="https://www.wsj.com/us-news/education/college-admissions-caltech-cheating-fraud-squad-f7627aab">The 'Fraud Squad' at Caltech Will Catch You if You Lie on Your Application</a> — The Wall Street Journal</li>
+<li><a href="https://yaledailynews.com/articles/why-yale-prompt-exploring-identity-axed-from-first-year-application">'Why Yale' prompt exploring identity axed from first-year application</a> — Yale Daily News</li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-08-04/why-you-don-t-even-have-to-apply-for-college-anymore">Why You Don't Even Have to Apply for College Anymore</a> — Bloomberg</li>
+<li><a href="https://opendoorsdata.org/data/international-students/enrollment-trends/">Open Doors international student enrollment trends</a> — Institute of International Education</li>
+</ul>
+
+<p><em>Online and digital learning</em></p>
+<ul>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/10/digital-boom-drives-down-cost-college-course-materials">Digital Boom Drives Down Cost of College Course Materials</a> — Inside Higher Ed (NACS Student Watch)</li>
+<li><a href="https://wcet.wiche.edu/frontiers/2026/08/04/when-the-lms-goes-dark-rethinking-contingency-planning-in-higher-ed/">When the LMS Goes Dark: Rethinking Contingency Planning in Higher Ed</a> — WCET Frontiers</li>
+<li><a href="https://wcet.wiche.edu/frontiers/2026/08/06/writing-the-next-chapter-distance-learning-in-the-american-higher-ed-story/">Writing the Next Chapter: Distance Learning in the American Higher Ed Story</a> — WCET Frontiers</li>
+<li><a href="https://lib.vt.edu/create-share/studios.html">Studios — Virtual Environments Studio</a> — Virginia Tech University Libraries</li>
+<li><a href="https://idahonews.com/news/local/northwest-nazarene-university-to-launch-four-accelerated-online-degrees-in-august-2026">Northwest Nazarene University to launch four accelerated online degrees</a> — Idaho News</li>
+<li><a href="https://news.miami.edu/uonline/stories/2026/06/new-online-programs-fall.html">University launches 2 new online master's programs for fall 2026</a> — University of Miami</li>
+</ul>
+
+<p>Higher Ed News Digest is compiled twice weekly, on Mondays and Thursdays.</p>]]></description>
+      <content:encoded><![CDATA[<p>Coverage window: Friday 7 August – Monday 10 August 2026. Sixteen stories, read by two voices.</p>
+
+<p><strong>In this episode</strong></p>
+<ol>
+<li>Heritage Foundation publishes model state legislation to codify the federal compact</li>
+<li>Who drafted "Compact 2.0" — and what presidents are being told to do about it</li>
+<li>Professors are retiring early, and AI is the deciding factor</li>
+<li>Four clocks on campus AI, and Turnitin's move to keystroke monitoring</li>
+<li>Fisk's $400 million data center becomes a flashpoint</li>
+<li>Civil rights enforcement widens, with Duke Law a first</li>
+<li>Federal policy roundup: an OPT fee, a Senate package, a grant-rule block, and a scholarship portal</li>
+<li>Workforce Pell: the policy is live, the states are not ready</li>
+<li>Texas: the performance funding model worked too well to afford</li>
+<li>State aid shortfalls are common, and the design invites them</li>
+<li>Howard offers buyouts to 600 employees</li>
+<li>Illinois Tech and Mankato cut deep, days before term</li>
+<li>GAO: 94% of Division I athletics programs lost money</li>
+<li>Price competition at both ends: Boston University and Alaska</li>
+<li>Niche: 61% of colleges met fall goals, but only half of small ones</li>
+<li>Digital learning: cheaper materials, LMS fragility, and new autumn programmes</li>
+</ol>
+
+<p><strong>One thing to watch:</strong> tying money to outcomes is easy to legislate and expensive to honour — the compact fight moves to fifty state capitals just as Texas discovers it cannot afford the performance model everyone praised.</p>
+
+<p><strong>Sources</strong></p>
+
+<p><em>The compact and federal policy</em></p>
+<ul>
+<li><a href="https://www.heritage.org/model-legislation/codify-the-federal-higher-education-compact">Codify the Federal Higher Education Compact</a> — Heritage Foundation</li>
+<li><a href="https://www.highereddive.com/news/the-heritage-foundation-releases-sweeping-model-bill-to-overhaul-higher-ed/827280/">The Heritage Foundation releases sweeping model bill to overhaul higher ed</a> — Higher Ed Dive</li>
+<li><a href="https://www.chronicle.com/article/college-leaders-play-down-their-involvement-in-compact-2-0">College Leaders Play Down Their Involvement in 'Compact 2.0'</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.chronicle.com/liveblog/heres-the-latest-news-on-trump-policies-in-higher-ed">Here's the Latest News on Trump and Higher Ed</a> — The Chronicle of Higher Education (WashU faculty-led process, Yale billboards, CareerOneStop, Senate grant-rule block, Duke Law findings)</li>
+<li><a href="https://www.insidehighered.com/news/government/2026/08/10/how-should-leaders-respond-mcmahons-letter">How Should Leaders Respond to McMahon's Letter?</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/opinion/views/2026/08/10/linda-mcmahons-trojan-horse-opinion">Linda McMahon's Trojan Horse (opinion)</a> — Inside Higher Ed</li>
+<li><a href="https://www.highereddive.com/news/interagency-agreements-committee-oks-bill-to-block-4-education-department/826676/">Committee OKs bill to block Education Department transfers</a> — Higher Ed Dive</li>
+<li><a href="https://www.highereddive.com/news/week-in-review-a-100k-fee-for-opt/826752/">Week in review: A $100K fee for OPT?</a> — Higher Ed Dive</li>
+<li><a href="https://www.nasfaa.org/ge_2026">2026 Gainful Employment</a> — NASFAA</li>
+<li><a href="https://www.nixonpeabody.com/insights/alerts/2026/07/02/department-of-education-finalizes-obbb-higher-ed-accountability-rule">Department of Education finalizes OBBB higher ed accountability rule</a> — Nixon Peabody</li>
+</ul>
+
+<p><em>State policy and student aid</em></p>
+<ul>
+<li><a href="https://www.insidehighered.com/news/government/state-policy/2026/08/10/texas-could-shortchange-new-funding-model-champions">Texas Could Shortchange New Funding Model Champions</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/news/students/financial-aid/2026/08/10/state-aid-shortfalls-are-common-can-they-be-addressed">State Aid Shortfalls Are Common. Can They Be Addressed?</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/news/government/state-policy/2026/08/07/states-wrestle-data-and-program-tweaks-access-workforce">States Wrestle With Data and Program Tweaks to Access Workforce Pell</a> — Inside Higher Ed</li>
+</ul>
+
+<p><em>AI and academic integrity</em></p>
+<ul>
+<li><a href="https://www.chronicle.com/article/these-professors-are-retiring-early-ai-was-the-last-straw">These Professors Are Retiring Early. AI Was the Last Straw.</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.chronicle.com/article/my-students-werent-human-they-were-ghosts">My Students Weren't Human. They Were Ghosts.</a> — The Chronicle Review</li>
+<li><a href="https://www.chronicle.com/article/ai-is-a-wicked-problem-thats-the-universitys-specialty">AI Is a Wicked Problem. That's the University's Specialty.</a> — The Chronicle Review</li>
+<li><a href="https://www.chronicle.com/article/to-catch-ai-cheating-turnitin-wants-to-monitor-students-keystrokes">To Catch AI Cheating, Turnitin Wants to Monitor Students' Keystrokes</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/07/will-data-center-bring-risk-or-reward-fisk">Will a Data Center Bring Risk or Reward to Fisk?</a> — Inside Higher Ed</li>
+</ul>
+
+<p><em>Legal and civil rights</em></p>
+<ul>
+<li><a href="https://www.justice.gov/opa/pr/justice-department-finds-duke-law-school-discriminates-based-race-admissions">Justice Department finds Duke Law School discriminates based on race in admissions</a> — U.S. Department of Justice</li>
+<li><a href="https://www.ed.gov/about/news/press-release/us-department-of-education-investigates-alleged-antisemitic-harassment-two-california-universities">ED investigates alleged antisemitic harassment at two California universities</a> — U.S. Department of Education</li>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/10/haverford-settles-antisemitism-lawsuit">Haverford Settles Antisemitism Lawsuit</a> — Inside Higher Ed</li>
+<li><a href="https://www.theguardian.com/us-news/ng-interactive/2026/aug/06/professor-israel-gaza-university-of-minnesota">The professor, Israel, Gaza and the University of Minnesota</a> — The Guardian</li>
+</ul>
+
+<p><em>Institutional finance</em></p>
+<ul>
+<li><a href="https://www.chronicle.com/liveblog/heres-the-latest-news-on-campus-finance">Here's the Latest News on Campus Finance</a> — The Chronicle of Higher Education (GAO athletics figures, Illinois Tech, Mankato, Alaska)</li>
+<li><a href="https://www.chronicle.com/article/howard-u-offers-buyouts-to-600-employees">Howard U. Offers Buyouts to 600 Employees</a> — The Chronicle of Higher Education</li>
+<li><a href="https://www.highereddive.com/news/illinois-institute-of-technology-lays-off-160-faculty-and-staff-members/826895/">Illinois Institute of Technology lays off 160 faculty and staff members</a> — Higher Ed Dive</li>
+<li><a href="https://www.highereddive.com/news/minnesota-state-mankato-to-undergo-layoffs-hike-tuition-amid-22m-shortfal/827286/">Minnesota State Mankato to undergo layoffs, hike tuition amid $22M shortfall</a> — Higher Ed Dive</li>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/10/bu-offers-free-tuition-families-earning-200k">BU Offers Free Tuition to Families Earning Up to $200K</a> — Inside Higher Ed</li>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/06/u-alaska-plans-end-out-state-tuition-rates">U. of Alaska Plans to End Out-of-State Tuition Rates</a> — Inside Higher Ed</li>
+</ul>
+
+<p><em>Enrolment and admissions</em></p>
+<ul>
+<li><a href="https://www.insidehighered.com/news/students/financial-aid/2026/08/05/61-percent-colleges-have-met-their-enrollment-goals-fall">61 Percent of Colleges Have Met Their Enrollment Goals for Fall 2026</a> — Inside Higher Ed (Niche survey)</li>
+<li><a href="https://www.wsj.com/us-news/education/college-admissions-caltech-cheating-fraud-squad-f7627aab">The 'Fraud Squad' at Caltech Will Catch You if You Lie on Your Application</a> — The Wall Street Journal</li>
+<li><a href="https://yaledailynews.com/articles/why-yale-prompt-exploring-identity-axed-from-first-year-application">'Why Yale' prompt exploring identity axed from first-year application</a> — Yale Daily News</li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-08-04/why-you-don-t-even-have-to-apply-for-college-anymore">Why You Don't Even Have to Apply for College Anymore</a> — Bloomberg</li>
+<li><a href="https://opendoorsdata.org/data/international-students/enrollment-trends/">Open Doors international student enrollment trends</a> — Institute of International Education</li>
+</ul>
+
+<p><em>Online and digital learning</em></p>
+<ul>
+<li><a href="https://www.insidehighered.com/news/quick-takes/2026/08/10/digital-boom-drives-down-cost-college-course-materials">Digital Boom Drives Down Cost of College Course Materials</a> — Inside Higher Ed (NACS Student Watch)</li>
+<li><a href="https://wcet.wiche.edu/frontiers/2026/08/04/when-the-lms-goes-dark-rethinking-contingency-planning-in-higher-ed/">When the LMS Goes Dark: Rethinking Contingency Planning in Higher Ed</a> — WCET Frontiers</li>
+<li><a href="https://wcet.wiche.edu/frontiers/2026/08/06/writing-the-next-chapter-distance-learning-in-the-american-higher-ed-story/">Writing the Next Chapter: Distance Learning in the American Higher Ed Story</a> — WCET Frontiers</li>
+<li><a href="https://lib.vt.edu/create-share/studios.html">Studios — Virtual Environments Studio</a> — Virginia Tech University Libraries</li>
+<li><a href="https://idahonews.com/news/local/northwest-nazarene-university-to-launch-four-accelerated-online-degrees-in-august-2026">Northwest Nazarene University to launch four accelerated online degrees</a> — Idaho News</li>
+<li><a href="https://news.miami.edu/uonline/stories/2026/06/new-online-programs-fall.html">University launches 2 new online master's programs for fall 2026</a> — University of Miami</li>
+</ul>
+
+<p>Higher Ed News Digest is compiled twice weekly, on Mondays and Thursdays.</p>]]></content:encoded>
+      <itunes:summary>Coverage window: Friday 7 August – Monday 10 August 2026. Sixteen stories, read by two voices.
+
+In this episode
+
+• Heritage Foundation publishes model state legislation to codify the federal compact
+
+• Who drafted "Compact 2.0" — and what presidents are being told to do about it
+
+• Professors are retiring early, and AI is the deciding factor
+
+• Four clocks on campus AI, and Turnitin's move to keystroke monitoring
+
+• Fisk's $400 million data center becomes a flashpoint
+
+• Civil rights enforcement widens, with Duke Law a first
+
+• Federal policy roundup: an OPT fee, a Senate package, a grant-rule block, and a scholarship portal
+
+• Workforce Pell: the policy is live, the states are not ready
+
+• Texas: the performance funding model worked too well to afford
+
+• State aid shortfalls are common, and the design invites them
+
+• Howard offers buyouts to 600 employees
+
+• Illinois Tech and Mankato cut deep, days before term
+
+• GAO: 94% of Division I athletics programs lost money
+
+• Price competition at both ends: Boston University and Alaska
+
+• Niche: 61% of colleges met fall goals, but only half of small ones
+
+• Digital learning: cheaper materials, LMS fragility, and new autumn programmes
+
+One thing to watch: tying money to outcomes is easy to legislate and expensive to honour — the compact fight moves to fifty state capitals just as Texas discovers it cannot afford the performance model everyone praised.
+
+Sources
+
+The compact and federal policy
+
+• Codify the Federal Higher Education Compact (https://www.heritage.org/model-legislation/codify-the-federal-higher-education-compact) — Heritage Foundation
+
+• The Heritage Foundation releases sweeping model bill to overhaul higher ed (https://www.highereddive.com/news/the-heritage-foundation-releases-sweeping-model-bill-to-overhaul-higher-ed/827280/) — Higher Ed Dive
+
+• College Leaders Play Down Their Involvement in 'Compact 2.0' (https://www.chronicle.com/article/college-leaders-play-down-their-involvement-in-compact-2-0) — The Chronicle of Higher Education
+
+• Here's the Latest News on Trump and Higher Ed (https://www.chronicle.com/liveblog/heres-the-latest-news-on-trump-policies-in-higher-ed) — The Chronicle of Higher Education (WashU faculty-led process, Yale billboards, CareerOneStop, Senate grant-rule block, Duke Law findings)
+
+• How Should Leaders Respond to McMahon's Letter? (https://www.insidehighered.com/news/government/2026/08/10/how-should-leaders-respond-mcmahons-letter) — Inside Higher Ed
+
+• Linda McMahon's Trojan Horse (opinion) (https://www.insidehighered.com/opinion/views/2026/08/10/linda-mcmahons-trojan-horse-opinion) — Inside Higher Ed
+
+• Committee OKs bill to block Education Department transfers (https://www.highereddive.com/news/interagency-agreements-committee-oks-bill-to-block-4-education-department/826676/) — Higher Ed Dive
+
+• Week in review: A $100K fee for OPT? (https://www.highereddive.com/news/week-in-review-a-100k-fee-for-opt/826752/) — Higher Ed Dive
+
+• 2026 Gainful Employment (https://www.nasfaa.org/ge_2026) — NASFAA
+
+• Department of Education finalizes OBBB higher ed accountability rule (https://www.nixonpeabody.com/insights/alerts/2026/07/02/department-of-education-finalizes-obbb-higher-ed-accountability-rule) — Nixon Peabody
+
+State policy and student aid
+
+• Texas Could Shortchange New Funding Model Champions (https://www.insidehighered.com/news/government/state-policy/2026/08/10/texas-could-shortchange-new-funding-model-champions) — Inside Higher Ed
+
+• State Aid Shortfalls Are Common. Can They Be Addressed? (https://www.insidehighered.com/news/students/financial-aid/2026/08/10/state-aid-shortfalls-are-common-can-they-be-addressed) — Inside Higher Ed
+
+• States Wrestle With Data and Program Tweaks to Access Workforce Pell (https://www.insidehighered.com/news/government/state-policy/2026/08/07/states-wrestle-data-and-program-tweaks-access-workforce) — Inside Higher Ed
+
+AI and academic integrity
+
+• These Professors Are Retiring Early. AI Was the Last Straw. (https://www.chronicle.com/article/these-professors-are-retiring-early-ai-was-the-last-straw) — The Chronicle of Higher Education
+
+• My Students Weren't Human. They Were Ghosts. (https://www.chronicle.com/article/my-students-werent-human-they-were-ghosts) — The Chronicle Review
+
+• AI Is a Wicked Problem. That's the University's Specialty. (https://www.chronicle.com/article/ai-is-a-wicked-problem-thats-the-universitys-specialty) — The Chronicle Review
+
+• To Catch AI Cheating, Turnitin Wants to Monitor Students' Keystrokes (https://www.chronicle.com/article/to-catch-ai-cheating-turnitin-wants-to-monitor-students-keystrokes) — The Chronicle of Higher Education
+
+• Will a Data Center Bring Risk or Reward to Fisk? (https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/07/will-data-center-bring-risk-or-reward-fisk) — Inside Higher Ed
+
+Legal and civil rights
+
+• Justice Department finds Duke Law School discriminates based on race in admissions (https://www.justice.gov/opa/pr/justice-department-finds-duke-law-school-discriminates-based-race-admissions) — U.S. Department of Justice
+
+• ED investigates alleged antisemitic harassment at two California universities (https://www.ed.gov/about/news/press-release/us-department-of-education-investigates-alleged-antisemitic-harassment-two-california-universities) — U.S. Department of Education
+
+• Haverford Settles Antisemitism Lawsuit (https://www.insidehighered.com/news/quick-takes/2026/08/10/haverford-settles-antisemitism-lawsuit) — Inside Higher Ed
+
+• The professor, Israel, Gaza and the University of Minnesota (https://www.theguardian.com/us-news/ng-interactive/2026/aug/06/professor-israel-gaza-university-of-minnesota) — The Guardian
+
+Institutional finance
+
+• Here's the Latest News on Campus Finance (https://www.chronicle.com/liveblog/heres-the-latest-news-on-campus-finance) — The Chronicle of Higher Education (GAO athletics figures, Illinois Tech, Mankato, Alaska)
+
+• Howard U. Offers Buyouts to 600 Employees (https://www.chronicle.com/article/howard-u-offers-buyouts-to-600-employees) — The Chronicle of Higher Education
+
+• Illinois Institute of Technology lays off 160 faculty and staff members (https://www.highereddive.com/news/illinois-institute-of-technology-lays-off-160-faculty-and-staff-members/826895/) — Higher Ed Dive
+
+• Minnesota State Mankato to undergo layoffs, hike tuition amid $22M shortfall (https://www.highereddive.com/news/minnesota-state-mankato-to-undergo-layoffs-hike-tuition-amid-22m-shortfal/827286/) — Higher Ed Dive
+
+• BU Offers Free Tuition to Families Earning Up to $200K (https://www.insidehighered.com/news/quick-takes/2026/08/10/bu-offers-free-tuition-families-earning-200k) — Inside Higher Ed
+
+• U. of Alaska Plans to End Out-of-State Tuition Rates (https://www.insidehighered.com/news/quick-takes/2026/08/06/u-alaska-plans-end-out-state-tuition-rates) — Inside Higher Ed
+
+Enrolment and admissions
+
+• 61 Percent of Colleges Have Met Their Enrollment Goals for Fall 2026 (https://www.insidehighered.com/news/students/financial-aid/2026/08/05/61-percent-colleges-have-met-their-enrollment-goals-fall) — Inside Higher Ed (Niche survey)
+
+• The 'Fraud Squad' at Caltech Will Catch You if You Lie on Your Application (https://www.wsj.com/us-news/education/college-admissions-caltech-cheating-fraud-squad-f7627aab) — The Wall Street Journal
+
+• 'Why Yale' prompt exploring identity axed from first-year application (https://yaledailynews.com/articles/why-yale-prompt-exploring-identity-axed-from-first-year-application) — Yale Daily News
+
+• Why You Don't Even Have to Apply for College Anymore (https://www.bloomberg.com/news/articles/2026-08-04/why-you-don-t-even-have-to-apply-for-college-anymore) — Bloomberg
+
+• Open Doors international student enrollment trends (https://opendoorsdata.org/data/international-students/enrollment-trends/) — Institute of International Education
+
+Online and digital learning
+
+• Digital Boom Drives Down Cost of College Course Materials (https://www.insidehighered.com/news/quick-takes/2026/08/10/digital-boom-drives-down-cost-college-course-materials) — Inside Higher Ed (NACS Student Watch)
+
+• When the LMS Goes Dark: Rethinking Contingency Planning in Higher Ed (https://wcet.wiche.edu/frontiers/2026/08/04/when-the-lms-goes-dark-rethinking-contingency-planning-in-higher-ed/) — WCET Frontiers
+
+• Writing the Next Chapter: Distance Learning in the American Higher Ed Story (https://wcet.wiche.edu/frontiers/2026/08/06/writing-the-next-chapter-distance-learning-in-the-american-higher-ed-story/) — WCET Frontiers
+
+• Studios — Virtual Environments Studio (https://lib.vt.edu/create-share/studios.html) — Virginia Tech University Libraries
+
+• Northwest Nazarene University to launch four accelerated online degrees (https://idahonews.com/news/local/northwest-nazarene-university-to-launch-four-accelerated-online-degrees-in-august-2026) — Idaho News
+
+• University launches 2 new online master's programs for fall 2026 (https://news.miami.edu/uonline/stories/2026/06/new-online-programs-fall.html) — University of Miami
+
+Higher Ed News Digest is compiled twice weekly, on Mondays and Thursdays.</itunes:summary>
+      <pubDate>Mon, 10 Aug 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">higheredbrief-2026-08-10</guid>
+      <enclosure url="https://chrismilletpsu.github.io/higher-ed-brief-feed/audio/digest_2026-08-10.m4a" length="7182339" type="audio/mp4"/>
+      <itunes:duration>0:14:19</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Higher Ed News Digest — Thursday, 6 August 2026</title>
+      <description>Spoken edition of the Higher Ed News Digest for Thursday, 6 August 2026. Full sources are in the email edition.</description>
+      <pubDate>Thu, 06 Aug 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">higheredbrief-2026-08-06</guid>
+      <enclosure url="https://chrismilletpsu.github.io/higher-ed-brief-feed/audio/digest_2026-08-06.m4a" length="6919402" type="audio/mp4"/>
+      <itunes:duration>0:13:48</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Higher Ed News Digest — Tuesday, 4 August 2026</title>
+      <description>Spoken edition of the Higher Ed News Digest for Tuesday, 4 August 2026. Full sources are in the email edition.</description>
+      <pubDate>Tue, 04 Aug 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">higheredbrief-2026-08-04</guid>
+      <enclosure url="https://chrismilletpsu.github.io/higher-ed-brief-feed/audio/digest_2026-08-04.m4a" length="3093957" type="audio/mp4"/>
+      <itunes:duration>0:12:26</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>
