@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Higher Ed News Digest</title>
+<meta name="description" content="A daily spoken brief on higher education policy, online learning, edtech, enrolment and accreditation. Read by Serena.">
+<meta name="theme-color" content="#0a1524">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Higher Ed News Digest">
+<meta property="og:description" content="A daily spoken brief on higher education policy, online learning, edtech, enrolment and accreditation. Read by Serena.">
+<meta property="og:url" content="https://chrismilletpsu.github.io/higher-ed-brief-feed/">
+<meta property="og:image" content="https://chrismilletpsu.github.io/higher-ed-brief-feed/artwork.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="Higher Ed News Digest" href="https://chrismilletpsu.github.io/higher-ed-brief-feed/feed.xml">
+<link rel="icon" href="artwork.png">
+<link rel="apple-touch-icon" href="artwork.png">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a1524; --bg-2:#0e1c2e; --surface:#112138; --surface-hi:#16294a;
+  --line:rgba(255,255,255,.09); --line-hi:rgba(255,255,255,.18);
+  --text:#e9f0f8; --muted:#94a8c2; --gold:#d8a63c; --gold-hi:#f0c15e;
+  --radius:18px; --maxw:940px;
+  --serif:ui-serif,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 var(--sans);
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(1100px 620px at 78% -10%, rgba(216,166,60,.13), transparent 62%),
+    radial-gradient(900px 560px at 8% 0%, rgba(38,86,148,.32), transparent 60%);
+  background-repeat:no-repeat;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+a{color:var(--gold-hi);text-decoration-thickness:1px;text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--gold-hi);outline-offset:3px;border-radius:6px}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#14243a;
+  padding:12px 18px;border-radius:0 0 10px 0;font-weight:650;z-index:60}
+.skip-link:focus{left:0}
+
+/* sticky bar */
+.bar{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);background:rgba(10,21,36,.72);
+  border-bottom:1px solid transparent;transition:border-color .25s,background .25s}
+.bar.stuck{border-bottom-color:var(--line);background:rgba(10,21,36,.9)}
+.bar-in{display:flex;align-items:center;gap:14px;height:60px}
+.bar-mark{width:26px;height:26px;border-radius:7px;flex:none;
+  background:linear-gradient(150deg,var(--gold-hi),var(--gold));
+  box-shadow:0 2px 10px rgba(216,166,60,.35)}
+.bar-title{font:600 15px/1 var(--sans);letter-spacing:.01em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-rss{margin-left:auto;font-size:13.5px;font-weight:600;color:var(--muted);
+  text-decoration:none;border:1px solid var(--line);padding:7px 13px;border-radius:999px;
+  transition:color .2s,border-color .2s,background .2s}
+.bar-rss:hover{color:var(--text);border-color:var(--line-hi);background:rgba(255,255,255,.05)}
+
+/* hero */
+.hero{padding:64px 0 52px}
+.hero-in{display:grid;grid-template-columns:236px 1fr;gap:44px;align-items:center}
+.art{width:236px;aspect-ratio:1;border-radius:22px;display:block;
+  border:1px solid var(--line-hi);
+  box-shadow:0 26px 60px -18px rgba(0,0,0,.75), 0 0 0 1px rgba(255,255,255,.04) inset}
+.eyebrow{font:600 12px/1 var(--sans);letter-spacing:.19em;text-transform:uppercase;
+  color:var(--gold);margin:0 0 16px}
+h1{font:600 clamp(34px,5.4vw,50px)/1.08 var(--serif);letter-spacing:-.015em;margin:0 0 16px}
+.tagline{color:var(--muted);font-size:17.5px;margin:0 0 26px;max-width:46ch}
+.facts{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 28px;padding:0;list-style:none}
+.facts li{font-size:12.5px;font-weight:600;letter-spacing:.03em;color:var(--muted);
+  border:1px solid var(--line);border-radius:999px;padding:6px 13px;background:rgba(255,255,255,.03)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:9px;border-radius:12px;
+  padding:13px 20px;font:650 14.5px/1 var(--sans);cursor:pointer;
+  border:1px solid transparent;text-decoration:none;transition:transform .16s,box-shadow .2s,background .2s,border-color .2s}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:linear-gradient(160deg,var(--gold-hi),var(--gold));color:#15243a;
+  box-shadow:0 10px 26px -10px rgba(216,166,60,.75)}
+.btn-primary:hover{box-shadow:0 14px 32px -10px rgba(216,166,60,.9)}
+.btn-ghost{background:rgba(255,255,255,.045);border-color:var(--line);color:var(--text)}
+.btn-ghost:hover{border-color:var(--line-hi);background:rgba(255,255,255,.08)}
+.btn svg{width:17px;height:17px;fill:currentColor;flex:none}
+.feed-url{margin:22px 0 0;font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color:var(--muted);word-break:break-all}
+.feed-url span{color:var(--text)}
+
+/* episodes */
+.section-head{display:flex;align-items:baseline;gap:14px;
+  padding-top:14px;margin:0 0 22px;border-top:1px solid var(--line)}
+h2{font:600 24px/1.2 var(--serif);margin:0;letter-spacing:-.01em}
+.count{font-size:13.5px;color:var(--muted);font-weight:600}
+.eps{display:flex;flex-direction:column;gap:16px;padding-bottom:72px}
+.ep{background:linear-gradient(180deg,var(--surface),rgba(17,33,56,.55));
+  border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;
+  transition:border-color .25s,transform .25s,box-shadow .25s}
+.ep:hover{border-color:var(--line-hi);box-shadow:0 18px 40px -26px rgba(0,0,0,.9)}
+.ep.playing{border-color:rgba(216,166,60,.55);
+  box-shadow:0 0 0 1px rgba(216,166,60,.22),0 20px 46px -26px rgba(0,0,0,.9)}
+.ep-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  font-size:12.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:11px}
+.ep-meta .sep{opacity:.45}
+.pill{background:rgba(216,166,60,.15);color:var(--gold-hi);border:1px solid rgba(216,166,60,.34);
+  border-radius:999px;padding:3px 10px;font-size:11px;letter-spacing:.09em}
+.ep-title{font:600 20.5px/1.32 var(--serif);margin:0 0 9px;letter-spacing:-.005em}
+.ep-desc{margin:0 0 20px;color:#c2d0e2;font-size:15.5px;line-height:1.62;max-width:74ch}
+
+/* player */
+.player{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px;
+  padding-top:18px;border-top:1px solid var(--line)}
+.pp{width:50px;height:50px;flex:none;border-radius:50%;cursor:pointer;
+  border:1px solid rgba(216,166,60,.4);background:rgba(216,166,60,.13);color:var(--gold-hi);
+  display:grid;place-items:center;transition:background .2s,transform .16s,border-color .2s}
+.pp:hover{background:rgba(216,166,60,.24);border-color:rgba(216,166,60,.7)}
+.pp:active{transform:scale(.94)}
+.pp .ico{width:22px;height:22px;fill:currentColor}
+.pp .pause,.playing .pp .play{display:none}
+.playing .pp .pause{display:block}
+.playing .pp{background:var(--gold);color:#15243a;border-color:var(--gold)}
+.scrub{min-width:0}
+.seek{-webkit-appearance:none;appearance:none;width:100%;height:16px;background:transparent;
+  cursor:pointer;display:block;margin:0}
+.seek::-webkit-slider-runnable-track{height:6px;border-radius:99px;
+  background:linear-gradient(90deg,var(--gold) var(--p,0%),rgba(255,255,255,.14) var(--p,0%))}
+.seek::-moz-range-track{height:6px;border-radius:99px;
+  background:linear-gradient(90deg,var(--gold) var(--p,0%),rgba(255,255,255,.14) var(--p,0%))}
+.seek::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;border-radius:50%;
+  background:#fff;margin-top:-4.5px;box-shadow:0 1px 5px rgba(0,0,0,.6);
+  transition:transform .15s;opacity:0}
+.seek::-moz-range-thumb{width:15px;height:15px;border:0;border-radius:50%;background:#fff;
+  box-shadow:0 1px 5px rgba(0,0,0,.6);opacity:0}
+.player:hover .seek::-webkit-slider-thumb,.seek:focus-visible::-webkit-slider-thumb,
+.playing .seek::-webkit-slider-thumb{opacity:1}
+.player:hover .seek::-moz-range-thumb,.playing .seek::-moz-range-thumb{opacity:1}
+.seek::-webkit-slider-thumb:hover{transform:scale(1.22)}
+.times{display:flex;justify-content:space-between;margin-top:5px;
+  font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.tools{display:flex;align-items:center;gap:7px}
+.tools button,.tools .dl{background:rgba(255,255,255,.045);border:1px solid var(--line);
+  color:var(--muted);border-radius:9px;padding:8px 11px;cursor:pointer;
+  font:600 12.5px/1 var(--sans);text-decoration:none;white-space:nowrap;
+  transition:color .2s,border-color .2s,background .2s}
+.tools button:hover,.tools .dl:hover{color:var(--text);border-color:var(--line-hi);
+  background:rgba(255,255,255,.09)}
+.tools .rate{min-width:44px;text-align:center}
+
+/* toast + footer */
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,14px);
+  background:var(--surface-hi);border:1px solid var(--line-hi);color:var(--text);
+  padding:12px 20px;border-radius:12px;font-size:14px;font-weight:600;
+  box-shadow:0 16px 40px -14px rgba(0,0,0,.85);
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;z-index:70}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+footer{border-top:1px solid var(--line);padding:30px 0 56px;color:var(--muted);font-size:13.5px}
+footer p{margin:0 0 6px}
+
+/* motion */
+.reveal{opacity:0;transform:translateY(14px)}
+.reveal.in{opacity:1;transform:none;transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.3,1)}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{animation:none!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+}
+
+/* responsive */
+@media (max-width:760px){
+  .hero{padding:40px 0 34px}
+  .hero-in{grid-template-columns:1fr;gap:26px;text-align:left}
+  .art{width:150px;border-radius:18px}
+  .ep{padding:20px 18px}
+  .player{grid-template-columns:auto 1fr;gap:14px}
+  .tools{grid-column:1 / -1;justify-content:space-between}
+  .tools .dl{margin-left:auto}
+}
+@media (max-width:420px){
+  .wrap{padding:0 16px}
+  .actions .btn{flex:1 1 auto;justify-content:center}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#episodes">Skip to episodes</a>
+
+<header class="bar" id="bar">
+  <div class="wrap bar-in">
+    <span class="bar-mark" aria-hidden="true"></span>
+    <span class="bar-title">Higher Ed News Digest</span>
+    <a class="bar-rss" href="feed.xml">RSS</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-in">
+      <img class="art" src="artwork.png" width="236" height="236"
+           alt="Cover art for Higher Ed News Digest">
+      <div>
+        <p class="eyebrow">Audio Brief</p>
+        <h1>Higher Ed News Digest</h1>
+        <p class="tagline">A daily spoken brief on higher education policy, online learning, edtech, enrolment and accreditation. Read by Serena.</p>
+        <ul class="facts">
+          <li>13 episodes</li>
+          <li>Mondays &amp; Thursdays</li>
+          <li>~14 min</li>
+        </ul>
+        <div class="actions">
+          <button class="btn btn-primary" id="copy" type="button" data-url="https://chrismilletpsu.github.io/higher-ed-brief-feed/feed.xml">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.2 2h7.1L19 7.7V17a2.8 2.8 0 0 1-2.8 2.8H6.2A2.8 2.8 0 0 1 3.4 17V4.8A2.8 2.8 0 0 1 6.2 2Zm6.3 2.2v3.4h3.4ZM8.6 22a2.8 2.8 0 0 1-2.4-1.4h10a4.2 4.2 0 0 0 4.2-4.2V6.9A2.8 2.8 0 0 1 21.6 9.4v8.4A4.2 4.2 0 0 1 17.4 22Z"/></svg>
+            <span id="copy-label">Copy RSS feed</span>
+          </button>
+          <a class="btn btn-ghost" id="podcast-app" href="feed.xml">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7 1.3 1.3 0 0 0 2.6 0 4.4 4.4 0 0 1 8.8 0 1.3 1.3 0 0 0 2.6 0 7 7 0 0 0-7-7Zm0 4.3a2.7 2.7 0 0 0-1 5.2l-.9 6.8A1.9 1.9 0 0 0 12 20.6a1.9 1.9 0 0 0 1.9-2.3l-.9-6.8a2.7 2.7 0 0 0-1-5.2Z"/></svg>
+            Open in Podcasts
+          </a>
+        </div>
+        <p class="feed-url">Feed URL &middot; <span>https://chrismilletpsu.github.io/higher-ed-brief-feed/feed.xml</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="episodes">
+    <div class="section-head">
+      <h2>Episodes</h2>
+      <span class="count">Newest first &middot; 13 available</span>
+    </div>
+    <div class="eps">
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-09-10">Thu 10 Sep 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>12 min</span>
+          <span class="pill">Latest</span>
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Thursday, 10 September 2026</h3>
+        <p class="ep-desc">Today: an accreditor repeals its diversity standard two weeks before a federal committee decides whether it keeps its recognition, the duration of status rule takes effect Tuesday with no ruling from the judge, and humanities degrees fall to their lowest count in thirty-five years.</p>
+        <div class="player" data-key="2026-09-10">
+          <audio preload="none" src="audio/digest_2026-09-10.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Thursday, 10 September 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">11:48</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-09-10.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-09-07">Mon 7 Sep 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>12 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Monday, 7 September 2026</h3>
+        <p class="ep-desc">Today: the Treasury Department moves to put private colleges' tax exemption on the table, Florida closes its public universities to undocumented students, and a federal judge leaves the international student visa rule twelve days from taking effect with no ruling.</p>
+        <div class="player" data-key="2026-09-07">
+          <audio preload="none" src="audio/digest_2026-09-07.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Monday, 7 September 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">12:04</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-09-07.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-09-03">Thu 3 Sep 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>12 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Thursday, 3 September 2026</h3>
+        <p class="ep-desc">Today: Antioch University wins a court order against the coalition it co-founded, nearly two hundred private colleges are found to have borrowed from restricted endowments, and the Justice Department is now suing twenty-one states over in-state tuition for undocumented students.</p>
+        <div class="player" data-key="2026-09-03">
+          <audio preload="none" src="audio/digest_2026-09-03.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Thursday, 3 September 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">11:43</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-09-03.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-31">Mon 31 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>11 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Monday, 31 August 2026</h3>
+        <p class="ep-desc">Today: MIT concludes that AI can complete almost any undergraduate written assignment, a federal judge rules the revocation of pro-Palestinian students' visas unconstitutional, and Texas moves toward three-year bachelor's degrees.</p>
+        <div class="player" data-key="2026-08-31">
+          <audio preload="none" src="audio/digest_2026-08-31.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Monday, 31 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">11:15</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-31.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-27">Thu 27 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>12 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Thursday, 27 August 2026</h3>
+        <p class="ep-desc">Today: the largest campus AI deployment in history reports its first year of usage numbers and they are dismal, Stanford explains why, and the Education Department's accreditation rewrite gets its first live test case.</p>
+        <div class="player" data-key="2026-08-27">
+          <audio preload="none" src="audio/digest_2026-08-27.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Thursday, 27 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">11:55</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-27.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-24">Mon 24 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>13 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Monday, 24 August 2026</h3>
+        <p class="ep-desc">Today: the Education Department unveils its accreditation overhaul, international enrolment is projected to fall by more than a hundred thousand students, and a Justice Department whistleblower alleges that civil rights investigations at three Ivy League universities were decided before the evidence was in.</p>
+        <div class="player" data-key="2026-08-24">
+          <audio preload="none" src="audio/digest_2026-08-24.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Monday, 24 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">12:43</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-24.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-22">Sat 22 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>13 min</span>
+          
+        </div>
+        <h3 class="ep-title">SPECIAL EDITION — The One Big Beautiful Bill Hits Campus</h3>
+        <p class="ep-desc">This is a special edition, devoted entirely to the One Big Beautiful Bill Act, and what it has actually done to universities.</p>
+        <div class="player" data-key="2026-08-22">
+          <audio preload="none" src="audio/digest_2026-08-22.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play SPECIAL EDITION — The One Big Beautiful Bill Hits Campus">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">13:02</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-22.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-20">Thu 20 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>14 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Thursday, 20 August 2026</h3>
+        <p class="ep-desc">Today: the Education Department proposes the biggest rewrite of accreditation in decades, higher education sues over the four-year cap on student visas, and a wave of universities make AI fluency a graduation requirement.</p>
+        <div class="player" data-key="2026-08-20">
+          <audio preload="none" src="audio/digest_2026-08-20.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Thursday, 20 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">13:34</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-20.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-17">Mon 17 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>14 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Monday, 17 August 2026</h3>
+        <p class="ep-desc">Today: Texas rewrites what every undergraduate must study, the Justice Department shuts down three NSF diversity programmes, and more than nineteen hundred colleges are late filing their federal earnings data.</p>
+        <div class="player" data-key="2026-08-17">
+          <audio preload="none" src="audio/digest_2026-08-17.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Monday, 17 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">13:59</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-17.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-13">Thu 13 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>13 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Thursday, 13 August 2026</h3>
+        <p class="ep-desc">Today we look at a projection of one hundred and eleven thousand fewer international students, a union lawsuit over which degrees count as professional, and the University of Michigan's decision to hide first semester grades.</p>
+        <div class="player" data-key="2026-08-13">
+          <audio preload="none" src="audio/digest_2026-08-13.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Thursday, 13 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">13:15</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-13.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-10">Mon 10 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>14 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Monday, 10 August 2026</h3>
+        <p class="ep-desc">Today: the drafters of the government's letter to college presidents begin to back away from it. Texas discovers its funding model worked too well to afford. And professors are retiring early, with artificial intelligence the deciding factor.</p>
+        <div class="player" data-key="2026-08-10">
+          <audio preload="none" src="audio/digest_2026-08-10.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Monday, 10 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">14:19</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-10.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-06">Thu 6 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>14 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Thursday, 6 August 2026</h3>
+        <p class="ep-desc">Coming up this edition: Washington asks every college in America to post a public pledge by New Year's Eve. The first ever short-term workforce Pell grant programme wins approval in Iowa. And after the Canvas hack, a warning that the learning management system has become higher education's single point of failure.</p>
+        <div class="player" data-key="2026-08-06">
+          <audio preload="none" src="audio/digest_2026-08-06.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Thursday, 6 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">13:48</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-06.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+      <article class="ep">
+        <div class="ep-meta">
+          <time datetime="2026-08-04">Tue 4 Aug 2026</time>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span>12 min</span>
+          
+        </div>
+        <h3 class="ep-title">Higher Ed News Digest — Tuesday, 4 August 2026</h3>
+        <p class="ep-desc">Today: the Education Secretary asks every college in the country to sign a public pledge, the White House weighs a one hundred thousand dollar fee on international graduates who want to work, and the Senate moves a student data bill that has been stalled for a decade.</p>
+        <div class="player" data-key="2026-08-04">
+          <audio preload="none" src="audio/digest_2026-08-04.m4a"></audio>
+          <button class="pp" type="button" aria-label="Play Higher Ed News Digest — Tuesday, 4 August 2026">
+            <svg class="ico play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            <svg class="ico pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.2v14H7zm6.8 0H17v14h-3.2z"/></svg>
+          </button>
+          <div class="scrub">
+            <input class="seek" type="range" min="0" max="1000" value="0" step="1"
+                   aria-label="Seek within episode">
+            <div class="times"><span class="cur">0:00</span><span class="dur">12:26</span></div>
+          </div>
+          <div class="tools">
+            <button class="skip" type="button" data-delta="-15" aria-label="Back 15 seconds">&#8630;15</button>
+            <button class="skip" type="button" data-delta="30" aria-label="Forward 30 seconds">30&#8631;</button>
+            <button class="rate" type="button" aria-label="Playback speed">1&times;</button>
+            <a class="dl" href="audio/digest_2026-08-04.m4a" download aria-label="Download episode">Download</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Higher Ed News Digest &middot; compiled twice weekly and read aloud.</p>
+    <p>&copy; 2026 &middot; <a href="feed.xml">RSS feed</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  'use strict';
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- toast ---- */
+  var toastEl = document.getElementById('toast'), toastT;
+  function toast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastT);
+    toastT = setTimeout(function () { toastEl.classList.remove('show'); }, 2400);
+  }
+
+  /* ---- copy feed URL ---- */
+  var copyBtn = document.getElementById('copy');
+  var copyLabel = document.getElementById('copy-label');
+  copyBtn.addEventListener('click', function () {
+    var url = copyBtn.dataset.url;
+    var done = function () {
+      copyLabel.textContent = 'Copied';
+      toast('Feed URL copied — paste it into your podcast app');
+      setTimeout(function () { copyLabel.textContent = 'Copy RSS feed'; }, 2400);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done, fallback);
+    } else { fallback(); }
+    function fallback() {
+      var ta = document.createElement('textarea');
+      ta.value = url; ta.setAttribute('readonly', '');
+      ta.style.cssText = 'position:absolute;left:-9999px';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); }
+      catch (e) { toast('Copy failed — select the feed URL below'); }
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---- one-tap subscribe: podcast:// hands the feed to the default app ---- */
+  var appLink = document.getElementById('podcast-app');
+  appLink.href = 'podcast://' + copyBtn.dataset.url.replace(/^https?:\/\//, '');
+
+  /* ---- sticky bar shadow ---- */
+  var bar = document.getElementById('bar');
+  var onScroll = function () { bar.classList.toggle('stuck', window.scrollY > 8); };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* ---- reveal on scroll ---- */
+  var cards = [].slice.call(document.querySelectorAll('.ep'));
+  if (!reduce && 'IntersectionObserver' in window) {
+    cards.forEach(function (c) { c.classList.add('reveal'); });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -40px 0px' });
+    cards.forEach(function (c) { io.observe(c); });
+  }
+
+  /* ---- players ---- */
+  var RATES = [1, 1.25, 1.5, 1.75, 2];
+  var playing = null;
+
+  function fmt(s) {
+    s = Math.max(0, Math.floor(s || 0));
+    var m = Math.floor(s / 60);
+    return m + ':' + String(s % 60).padStart(2, '0');
+  }
+  var store = {
+    get: function (k) { try { return parseFloat(localStorage.getItem('heb:' + k)) || 0; } catch (e) { return 0; } },
+    set: function (k, v) { try { localStorage.setItem('heb:' + k, String(Math.round(v))); } catch (e) {} }
+  };
+
+  document.querySelectorAll('.player').forEach(function (p) {
+    var audio = p.querySelector('audio');
+    var pp = p.querySelector('.pp');
+    var seek = p.querySelector('.seek');
+    var curEl = p.querySelector('.cur');
+    var durEl = p.querySelector('.dur');
+    var rateBtn = p.querySelector('.rate');
+    var card = p.closest('.ep');
+    var title = card.querySelector('.ep-title').textContent.trim();
+    var key = p.dataset.key;
+    var scrubbing = false, ri = 0, restored = false;
+
+    function paint() {
+      var d = audio.duration || 0, t = audio.currentTime || 0;
+      var pct = d ? (t / d) : 0;
+      if (!scrubbing) seek.value = Math.round(pct * 1000);
+      seek.style.setProperty('--p', (pct * 100).toFixed(2) + '%');
+      curEl.textContent = fmt(t);
+      if (d) durEl.textContent = fmt(d);
+    }
+
+    audio.addEventListener('loadedmetadata', function () {
+      if (!restored) {
+        restored = true;
+        var saved = store.get(key);
+        if (saved > 5 && audio.duration && saved < audio.duration - 15) {
+          audio.currentTime = saved;
+          toast('Resuming where you left off');
+        }
+      }
+      paint();
+    });
+
+    audio.addEventListener('timeupdate', function () {
+      paint();
+      if (!scrubbing) store.set(key, audio.currentTime);
+    });
+
+    audio.addEventListener('play', function () {
+      if (playing && playing !== audio) playing.pause();
+      playing = audio;
+      card.classList.add('playing');
+      pp.setAttribute('aria-label', 'Pause ' + title);
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: title,
+          artist: document.querySelector('.bar-title').textContent,
+          artwork: [{ src: 'artwork.png', sizes: '3000x3000', type: 'image/png' }]
+        });
+      }
+    });
+    audio.addEventListener('pause', function () {
+      card.classList.remove('playing');
+      pp.setAttribute('aria-label', 'Play ' + title);
+    });
+    audio.addEventListener('ended', function () {
+      card.classList.remove('playing');
+      store.set(key, 0);
+    });
+    audio.addEventListener('error', function () {
+      toast('That episode could not be loaded');
+      card.classList.remove('playing');
+    });
+
+    pp.addEventListener('click', function () {
+      if (audio.paused) { var r = audio.play(); if (r && r.catch) r.catch(function () {}); }
+      else audio.pause();
+    });
+
+    seek.addEventListener('input', function () {
+      scrubbing = true;
+      var d = audio.duration || 0;
+      seek.style.setProperty('--p', (seek.value / 10) + '%');
+      curEl.textContent = fmt(d * seek.value / 1000);
+    });
+    var commit = function () {
+      var d = audio.duration || 0;
+      if (d) audio.currentTime = d * seek.value / 1000;
+      scrubbing = false;
+    };
+    seek.addEventListener('change', commit);
+
+    p.querySelectorAll('.skip').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var d = audio.duration || Infinity;
+        audio.currentTime = Math.max(0, Math.min(d, audio.currentTime + parseFloat(b.dataset.delta)));
+      });
+    });
+
+    rateBtn.addEventListener('click', function () {
+      ri = (ri + 1) % RATES.length;
+      audio.playbackRate = RATES[ri];
+      rateBtn.textContent = RATES[ri] + '×';
+    });
+
+    paint();
+  });
+})();
+</script>
+</body>
+</html>
